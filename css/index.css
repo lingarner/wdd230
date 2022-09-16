@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 100px 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-columns: 408px 864px, 408px; */
+}
+
+.namePlate {
+    grid-row: 1;
+    grid-column: 2;
+    display: grid
+}
+
+img {
+    margin:left;
+    border-radius: 15px;
+}
+
+
+.listed {
+    grid-row: 3;
+    grid-column: 2;
+    display: block;
+    margin: left;    
+}
+
+li {
+    padding-bottom: 10px;
+    /* padding-left: 10px; */
+}
+
+#name{
+    display: inline-block;
+}
+
+#title {
+    grid-row: 2;
+    grid-column: 2;
+    display: block;
+    margin: left;
+    /* padding-left: 10px; */
+}
+
+footer {
+    grid-column: 2;
+    grid-row: 4;
+
+}
+    
