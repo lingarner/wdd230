@@ -3,6 +3,7 @@ body{
     display: grid;
     grid-template-rows: 255px 1fr auto;
     grid-template-columns: 1fr 2fr 1fr;
+    max-width: 1600px;
     
 }
 
@@ -39,6 +40,7 @@ img {
     text-align: center;
     margin: auto;
     font-size: 40px;
+    color: white;
 }
 
 #title {
@@ -47,7 +49,9 @@ img {
     display: block;
     margin-left: 0;
     padding-left: 30px;
+    padding-top: 7px;
     text-shadow: 2px 2px 7px;
+    font-size: 31px;
 }
 
 .listed {
@@ -77,3 +81,6 @@ p {
     font-size: large;
 }
     
+.lastModified {
+    color: white;
+}
