@@ -1,0 +1,16 @@
+@media screen and (max-width: 32em) {
+  header {
+    grid-row: 1;
+    grid-column: 2;
+    border-radius: 15px;
+    place-items: center;
+    box-shadow: 0 0 30px;
+  }
+
+  .insideHeader {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr;
+    padding-top: 26.5px;
+  }
+} ;
