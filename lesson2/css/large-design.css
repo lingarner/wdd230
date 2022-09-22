@@ -1,4 +1,4 @@
-@media screen and (min-width: 908px) {
+@media screen and (min-width: 991px) {
   /* main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -51,7 +51,7 @@
   }
 }
 
-@media screen and (min-width: 910px) {
+/* @media screen and (min-width: 910px) {
   .fit {
     height: 500px;
     width: fit-content;
@@ -61,4 +61,4 @@
     height: 500px;
     width: fit-content;
   }
-}
+} */
