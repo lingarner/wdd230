@@ -105,7 +105,9 @@ li {
 }
 
 h1 {
-  text-shadow: 2px 2px black;
+  color: #066489;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
 }
 
 /* colors
@@ -146,5 +148,14 @@ black:
   #home {
     grid-column: 5;
     grid-row: 1;
+  }
+
+  .scenarios {
+    text-align: center;
+  }
+
+  ul {
+    display: inline-block;
+    text-align: left;
   }
 }

@@ -62,10 +62,10 @@ nav {
   font-family: "Bitter", serif;
 }
 
-h1,
-h2 {
-  color: white;
+h1 {
+  color: #066489;
   font-family: "Open Sans", sans-serif;
+  font-weight: 200;
 }
 
 a:hover {
@@ -77,16 +77,13 @@ a:hover {
 h2 {
   text-decoration: underline;
   color: #066489;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
   font-size: 15px;
   font-family: "Bitter", serif;
   line-height: 20px;
-}
-
-h1 {
-  text-shadow: 2px 2px black;
 }
 
 /* colors

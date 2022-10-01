@@ -103,7 +103,9 @@ section {
 
 h1 {
   text-align: center;
-  text-shadow: 2px 2px black;
+  color: #066489;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
 }
 
 /* colors
