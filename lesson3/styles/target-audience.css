@@ -104,6 +104,10 @@ li {
   padding-bottom: 7px;
 }
 
+h1 {
+  text-shadow: 2px 2px black;
+}
+
 /* colors
 tan: #FFDBC2
 red:#ff5858

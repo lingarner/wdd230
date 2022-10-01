@@ -107,6 +107,10 @@ section {
   font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+  text-shadow: 2px 2px black;
+}
+
 /* colors
 tan: #FFDBC2
 red:#ff5858
