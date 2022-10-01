@@ -92,3 +92,32 @@ red:#ff5858
 blue:#066489
 black:
  */
+
+@media screen and (min-width: 600px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  #chamberImg {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #audience {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #colorScheme {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #text {
+    grid-column: 4;
+    grid-row: 1;
+  }
+}

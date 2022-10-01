@@ -11,7 +11,7 @@ body {
 nav {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 150px 50px 50px 50px;
+  grid-template-rows: 150px 50px 50px 50px 50px;
   background-color: #066489;
   border-radius: 30px;
   margin: 10px;
@@ -62,6 +62,16 @@ nav {
   font-family: "Bitter", serif;
 }
 
+#home {
+  grid-column: 1;
+  grid-row: 5;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+
 h1,
 h2 {
   color: white;
@@ -104,3 +114,37 @@ red:#ff5858
 blue:#066489
 black:
  */
+
+@media screen and (min-width: 700px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  #chamberImg {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #audience {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #colorScheme {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #text {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  #home {
+    grid-column: 5;
+    grid-row: 1;
+  }
+}
