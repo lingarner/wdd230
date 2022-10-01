@@ -120,4 +120,13 @@ black:
     grid-column: 4;
     grid-row: 1;
   }
+  .centerContent {
+    display: grid;
+    grid-template-columns: 1fr 30% 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  main {
+    grid-column: 2;
+  }
 }
