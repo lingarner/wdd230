@@ -115,13 +115,6 @@ h1 {
   width: 17%;
 }
 
-/* colors
-tan: #FFDBC2
-red:#ff5858
-blue:#066489
-black:
- */
-
 @media screen and (min-width: 700px) {
   nav {
     display: grid;
