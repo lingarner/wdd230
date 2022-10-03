@@ -6,6 +6,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   background-color: #ffdbc2;
+  max-height: fit-content;
 }
 
 nav {
@@ -14,7 +15,7 @@ nav {
   grid-template-rows: 150px 50px 50px 50px;
   background-color: #066489;
   border-radius: 30px;
-  margin: 10px;
+  margin: 20px;
   padding-bottom: 20px;
   opacity: 0.8;
 }
@@ -29,7 +30,6 @@ nav {
   grid-row: 1;
   margin: 0 auto;
   height: 130px;
-  margin: auto;
 }
 
 #audience {
