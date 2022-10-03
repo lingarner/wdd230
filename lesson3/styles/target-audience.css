@@ -110,7 +110,8 @@ h1 {
   font-weight: 200;
 }
 
-img {
+#businessOwner,
+#tourist {
   width: 17%;
 }
 
