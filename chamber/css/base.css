@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 /* this is the content for teh header on 
 on each page */
 
@@ -6,6 +9,22 @@ header {
   background-color: #066489;
   padding: 15px;
   border-radius: 30px;
+}
+
+i {
+  background-color: #066489;
+  padding: 5px;
+  border: #ffdbc2 solid 3px;
+  color: #ff8484;
+  font-size: 25px;
+}
+
+i:hover {
+  background-color: white;
+}
+
+button:hover {
+  background-color: #ff8484;
 }
 
 #town {
@@ -17,6 +36,7 @@ h2 {
   font-size: 13px;
   margin: 7px;
   color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
 #logoImg {
@@ -44,7 +64,7 @@ section {
 }
 
 body {
-  background-color: white;
+  background-color: #ffdbc2;
   display: grid;
   grid-template-columns: 1fr 90% 1fr;
 }
@@ -59,6 +79,7 @@ ul {
   border-radius: 20px;
   list-style: none;
   padding: 0;
+  font-family: "Bitter", serif;
 }
 
 li {
@@ -75,6 +96,7 @@ footer {
   padding: 15px;
   border-radius: 30px;
   color: white;
+  font-family: "Bitter", serif;
 }
 
 #adjustFoot {
@@ -96,6 +118,10 @@ main div {
 .spotlight {
   text-align: center;
   padding: 0;
+}
+
+div {
+  font-family: "Bitter", serif;
 }
 
 /* page specific */
