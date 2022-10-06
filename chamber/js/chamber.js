@@ -51,3 +51,16 @@ function show() {
 }
 
 button.addEventListener("click", show);
+
+// Footer Date
+let date = new Date();
+let yearFoot = date.getFullYear();
+
+document.querySelector(".yearFoot").textContent = yearFoot;
+
+let currentDate = document.lastModified;
+
+document.querySelector(".lastModified").textContent = currentDate;
+
+// Add Join
+// document.querySelector("#join").innerHTML = "Join";
