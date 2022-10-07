@@ -13,7 +13,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <link href="./css/fontAwesome.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/fontawesome.min.css"
+    />
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/medium.css" />
@@ -65,11 +72,37 @@
       </main>
 
       <footer>
-        <p>
-          &copy;<span class="yearFoot"></span> Gilbert Chamber | Lindsay Garner
-          | WDD230
-        </p>
-        <p id="adjustFoot">Last Updated: <span class="lastModified"></span></p>
+        <div class="gridFoot">
+          <img src="../lesson3/images/logo.png" alt="logo" id="footImg" />
+          <div id="locationInfo">
+            <h2>Gilbert Chamber of Commerce</h2>
+            <p id="address">119 N Gilbert Rd #101, Gilbert, AZ 85234</p>
+          </div>
+
+          <div id="contact">
+            <i id="pin" class="fa-solid fa-location-dot"></i
+            ><a
+              target="_blank"
+              id="linkLocation"
+              href="https://www.google.com/maps/place/119+N+Gilbert+Rd+%23101,+Gilbert,+AZ+85234/@33.3519164,-111.7915594,17z/data=!3m1!4b1!4m5!3m4!1s0x872ba914247d5943:0xa1d44f284f934b36!8m2!3d33.3519164!4d-111.7893707"
+              >Location Map</a
+            >
+            <p>info@gilbertcc.org</p>
+            <p>+1 (480) 827 6452</p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="bottomTag">
+          <p>
+            &copy;<span class="yearFoot"></span> Gilbert Chamber | Lindsay
+            Garner | WDD230
+          </p>
+          <p id="adjustFoot">
+            Last Updated: <span class="lastModified"></span>
+          </p>
+        </div>
       </footer>
     </div>
   </body>

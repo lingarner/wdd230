@@ -115,6 +115,27 @@ footer {
 #adjustFoot {
   display: inline;
 }
+
+#footImg {
+  width: 190px;
+}
+
+#pin {
+  border: none;
+}
+
+#linkLocation {
+  color: white;
+}
+
+#linkLocation:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 80%;
+}
+
 /* page specific */
 
 main {

@@ -104,4 +104,26 @@ black:
     float: right;
     position: relative;
   }
+
+  .gridFoot {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 1fr 2fr;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  #locationInfo {
+    text-align: left;
+    grid-column: 1;
+  }
+
+  #address {
+    margin-left: 7px;
+  }
+
+  #contact {
+    grid-column: 2;
+    grid-row: 1/3;
+  }
 }
