@@ -75,7 +75,7 @@ body {
 }
 
 ul {
-  background-color: #ff8484;
+  background-color: #ffdbc2;
   border-radius: 20px;
   list-style: none;
   padding: 0;
@@ -84,6 +84,19 @@ ul {
 
 li {
   padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: #ff5858;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 .disappear {

@@ -43,7 +43,6 @@ black:
     grid-column: 3/6;
     background-color: #ffdbc2;
     position: relative;
-    z-index: 3;
   }
 
   .btn {
