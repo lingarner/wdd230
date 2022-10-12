@@ -7,7 +7,7 @@
     display: none;
   }
 
-  ul {
+  nav {
     grid-column: 2/3;
   }
   .disappear {
