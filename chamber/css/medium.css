@@ -38,6 +38,14 @@ black:
     margin: 0 auto;
   }
 
+  banner {
+    grid-column: 2;
+    grid-row: 1;
+    width: fit-content;
+    height: min-content;
+    text-align: center;
+  }
+
   ul {
     background-color: #ffdbc2;
     position: relative;

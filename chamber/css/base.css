@@ -156,6 +156,13 @@ main div {
   padding: 0;
 }
 
+banner {
+  /* background-color: white; */
+  font-family: "Bitter", serif;
+  padding: 7px;
+  border-radius: 12px;
+}
+
 div {
   font-family: "Bitter", serif;
 }

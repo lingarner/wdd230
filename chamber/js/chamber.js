@@ -64,3 +64,13 @@ document.querySelector(".lastModified").textContent = currentDate;
 
 // Add Join
 // document.querySelector("#join").innerHTML = "Join";
+
+// Add banner
+//  a banner on Mondays or Tuesdays
+//  "🤝🏼 Come join us for the chamber meet
+// and greet Wednesday at 7:00 p.m."
+
+if (dayNum == 1 || dayNum == 2) {
+  banner = document.querySelector("banner");
+  banner.innerHTML = "🤝🏼 Come join us for the chamber meet!";
+}
