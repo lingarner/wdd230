@@ -153,9 +153,8 @@ black:
   /* join div inside */
   #joinUsBtn {
     background-color: #ff5858;
-    color: white;
+    color: black;
     border-radius: 12px;
-    color: white;
     border: 3px solid #ff5858;
     font-size: 17px;
     padding: 12px;
