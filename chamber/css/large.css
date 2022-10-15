@@ -59,11 +59,14 @@
     grid-column: 3;
     grid-row: 1/4;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
   .spotlight div {
-    justify-content: center;
+    /* height: 280px; */
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   #spot1 {
@@ -86,11 +89,5 @@
   #tower {
     object-fit: cover;
     height: 100%;
-  }
-
-  #joinBtn {
-    position: absolute;
-    top: 80%;
-    left: 40%;
   }
 }

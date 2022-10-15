@@ -186,8 +186,8 @@ main div p {
 }
 #joinBtn {
   position: absolute;
-  top: 70%;
-  left: 55%;
+  bottom: 10%;
+  right: 10%;
   border-radius: 10px;
   background-color: #066489;
   color: white;
