@@ -70,7 +70,7 @@ document.querySelector(".lastModified").textContent = currentDate;
 //  "🤝🏼 Come join us for the chamber meet
 // and greet Wednesday at 7:00 p.m."
 
-if (dayNum == 1 || dayNum == 2) {
+if (dayText == "Monday" || dayText == "Tuesday") {
   banner = document.querySelector("banner");
   banner.innerHTML = "🤝🏼 Come join us for the chamber meet!";
 }
