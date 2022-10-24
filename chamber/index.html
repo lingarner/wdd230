@@ -18,17 +18,18 @@
       href="path/to/font-awesome/css/font-awesome.min.css"
     />
 
-    <link rel="stylesheet" href="../css/normalize.css" />
+    <!-- <link rel="stylesheet" href="../css/normalize.css" /> -->
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/medium.css" />
     <link rel="stylesheet" href="./css/large.css" />
 
     <script defer src="./js/chamber.js"></script>
+    <script defer src="./js/windchill.js"></script>
   </head>
   <body>
     <div id="container">
       <header>
-        <img src="../lesson3/images/logo.png" alt="logo" id="logoImg" />
+        <img src="./images/logo.webp" alt="logo" id="logoImg" />
         <div class="nameTitle">
           <h1 id="town">Gilbert</h1>
           <h2>Chamber of Commerce</h2>
@@ -56,7 +57,22 @@
 
       <main>
         <div id="hero">
-          <img src="./images/water.jpg" alt="tower" id="tower" />
+          <picture>
+            <source
+              media="(max-width:400px)"
+              srcset="./images/water400-2.jpg"
+            />
+            <source
+              media="(max-width:750px)"
+              srcset="./images/water800-2.jpg"
+            />
+            <source
+              media="(max-width:2000px)"
+              srcset="./images/water1000-2.jpg"
+            />
+            <img src="./images/water.jpg" alt="tower" id="tower" />
+          </picture>
+
           <button id="joinBtn">Join the Chamber</button>
         </div>
 
@@ -71,19 +87,17 @@
         <div id="weather">
           <h2>Weather</h2>
           <img src="#" alt="weather-symbol" />
-          <span>33</span> <span>&#176;C</span>
+          <p><span id="temp">20</span> <span>&#176;F</span></p>
           <p>Partly Cloudy</p>
           <hr />
 
           <p>Wind Speed:</p>
-          <span>2.5 km/h</span>
+          <p><span id="speed">15</span> mph</p>
           <p>Wind Chill:</p>
-          <span>N/A</span>
+          <span id="chill">N/A</span>
         </div>
 
         <div id="event">
-          <!-- <i class="fa-solid fa-building-shield"></i> -->
-          <!-- <img src="./images/event.png" alt="event" id="eventImg" /> -->
           <h2>Business Workshop: Fraud and Awareness Prevention</h2>
         </div>
 

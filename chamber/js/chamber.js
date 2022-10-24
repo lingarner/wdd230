@@ -72,5 +72,5 @@ document.querySelector(".lastModified").textContent = currentDate;
 
 if (dayText == "Monday" || dayText == "Tuesday") {
   banner = document.querySelector("#joinUsBanner");
-  banner.innerHTML = "🤝🏼 Come join us for the chamber meet!";
+  banner.textContent = "🤝🏼 Come join us for the chamber meet!";
 }
