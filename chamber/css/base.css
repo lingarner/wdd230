@@ -223,7 +223,7 @@ main div p {
 }
 
 /* Discover Page */
-picture img {
+.discovery picture img {
   width: 97%;
   height: 97%;
   margin-top: 15px;
