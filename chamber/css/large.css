@@ -90,4 +90,11 @@
     object-fit: cover;
     height: 100%;
   }
+
+  /* Discover Page */
+
+  .discovery {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }

@@ -9,6 +9,7 @@ header {
   background-color: #066489;
   padding: 15px;
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 i {
@@ -111,6 +112,7 @@ footer {
   border-radius: 30px;
   color: white;
   font-family: "Bitter", serif;
+  margin-top: 7px;
 }
 
 #adjustFoot {
@@ -218,4 +220,14 @@ main div p {
 #eventImg {
   width: 30%;
   height: 30%;
+}
+
+/* Discover Page */
+picture img {
+  width: 97%;
+  height: 97%;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: solid 7px #066489;
+  margin: 0px;
 }
