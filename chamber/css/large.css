@@ -97,4 +97,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
+
+  .discovery img:hover {
+    background-color: white;
+    color: #066489;
+    cursor: pointer;
+    opacity: 0.6;
+  }
 }

@@ -9,21 +9,16 @@
       content="The home page for a Gilbert Arizona's Chamber of Commerce"
     />
     <title>Chamber of Commerce for The Town of Gilbert</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
-
-    <!-- <link rel="stylesheet" href="../css/normalize.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/medium.css" />
     <link rel="stylesheet" href="./css/large.css" />
 
     <script defer src="./js/chamber.js"></script>
+    <script defer src="./js/lastVisit.js"></script>
+    <script defer src="./js/lazyLoadImg.js"></script>
   </head>
   <body>
     <div id="container">
@@ -56,39 +51,84 @@
 
       <main class="discovery">
         <picture>
-          <img src="./images/downtown.jpg" alt="Downtown Gilbert" />
+          <img
+            src=""
+            data-src="./images/downtown.jpg"
+            alt="Downtown Gilbert"
+            class="lazy"
+          />
         </picture>
 
         <picture>
-          <img src="./images/minigolf.jpg" alt="3D minigolf" />
+          <img
+            src=""
+            data-src="./images/minigolf.jpg"
+            alt="3D minigolf"
+            class="lazy"
+          />
         </picture>
 
         <picture>
-          <img src="./images/climbing.jpg" alt="LAlta Climbing" />
+          <img
+            src=""
+            data-src="./images/climbing.jpg"
+            alt="Alta Climbing"
+            class="lazy"
+          />
         </picture>
 
         <picture>
-          <img src="./images/observatory.jpg" alt="observatory" />
+          <img
+            src=""
+            data-src="./images/observatory.jpg"
+            alt="observatory"
+            class="lazy"
+          />
         </picture>
 
         <picture>
-          <img src="./images/discovery.jpg" alt="discovery park" />
+          <img
+            src=""
+            data-src="./images/discovery.jpg"
+            alt="discovery park"
+            class="lazy"
+          />
         </picture>
 
         <picture>
-          <img src="./images/temple.jpg" alt="Gilbert Temple" />
+          <img
+            src=""
+            data-src="./images/temple.jpg"
+            alt="Gilbert Temple"
+            class="lazy"
+          />
         </picture>
 
         <picture>
-          <img src="./images/theater.jpg" alt="hale theater" />
+          <img
+            src=""
+            data-src="./images/theater.jpg"
+            alt="hale theater"
+            class="lazy"
+          />
         </picture>
 
         <picture>
-          <img src="./images/market.jpg" alt="farmers market" />
+          <img
+            src=""
+            data-src="./images/market.jpg"
+            alt="farmers market"
+            class="lazy"
+          />
         </picture>
 
         <picture>
-          <img src="./images/riperian.jpg" alt="riperian" />
+          <img
+            src=""
+            data-src="./images/riperian.jpg"
+            alt="riperian"
+            class="lazy"
+          />
         </picture>
       </main>
 
@@ -123,6 +163,7 @@
           <p id="adjustFoot">
             Last Updated: <span class="lastModified"></span>
           </p>
+          <h2>Number of days since last visit: <span id="diff"></span></h2>
         </div>
       </footer>
     </div>

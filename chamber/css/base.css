@@ -112,7 +112,7 @@ footer {
   border-radius: 30px;
   color: white;
   font-family: "Bitter", serif;
-  margin-top: 7px;
+  margin-top: 20px;
 }
 
 #adjustFoot {
@@ -231,3 +231,5 @@ main div p {
   border: solid 7px #066489;
   margin: 0px;
 }
+
+

@@ -1,4 +1,4 @@
-const image = document.querySelectorAll(".lazy");
+const image = document.querySelectorAll("img");
 
 const pimages = document.querySelectorAll("[data-src]");
 const options = {
