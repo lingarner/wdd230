@@ -230,6 +230,7 @@ main div p {
   border-radius: 30px;
   border: solid 7px #066489;
   margin: 0px;
+  box-shadow: 3px 3px 7px black;
 }
 
 
