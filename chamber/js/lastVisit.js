@@ -18,6 +18,7 @@ if (!localStorage.getItem("lastVisit")) {
 function setStyles() {
   let prevDate = localStorage.getItem("lastVisit");
   let currDate = Date.now();
+  // let currDate = new Date("2022-12-1")
 
   let difference = currDate - prevDate;
   console.log(difference);
