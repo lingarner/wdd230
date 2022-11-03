@@ -1,0 +1,19 @@
+tr:nth-child(odd){
+    background-color: #ccc;
+}
+
+thead th, tfoot td{
+    background-color: navajowhite;
+}
+
+td, th{
+    padding: 10px;
+    font-size: 2em;
+}
+
+table, td, th{
+    border: solid 1px black;
+    /* border-collapse: collapse; */
+}
+
+tbody tr:nth-child(3)}

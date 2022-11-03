@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+
+/* colors
+thead: #7FB9C2 
+tbody th: #628CA6
+1st child: #E7F0ED
+2nd: #E7FFED */
+
+
+body{
+    justify-items: center;
+}
+
+table, th, td{
+    border: solid 1px #AEB4B8;
+}
+
+table{
+    font-family: 'Ubuntu', sans-serif;
+    /* font-size: 2em; */
+    text-align: center;
+    box-shadow: 10px 10px 10px #628CA6;
+    border-spacing: 0px;
+    margin: 0 auto;
+}
+
+td{
+    padding: 7px;
+
+}
+
+.sections{
+    padding: 7px;
+    background-color:#628CA6 ;
+    color: white;
+}
+
+thead th {
+    background-color: #7FB9C2;
+    font-weight: 100000;
+    font-size: 27px;
+    padding: 7px;
+}
+
+
+tr:nth-child(2n -3){
+    background-color: #E7FFED ;
+}
+
+tr:nth-child(2n){
+    background-color: #E7F0ED;
+}
+
+#special{
+    background-color: #628CA6 ;
+    color: white;
+}
+
+#italic{
+    font-style: italic;
+}
+
+tfoot tr td{
+    font-size: 12px;
+    background-color: #7FB9C2
+
+}
+
+@media screen and (max-width: 300px) {
+    
+}
