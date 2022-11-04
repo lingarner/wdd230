@@ -1,63 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-    <link rel="stylesheet" href="./form.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./form.css" />
+    <link href="./form.js" />
+  </head>
+  <body>
     <!-- post- more secure (something sensitive) allows to send more information/more overhead -->
     <!-- get shows up in the url ex) search lamps lamps shows up in the url -->
-    <!-- <form method="get" action="thankyou.html"> -->
-        <!-- <label for="fname">First Name*:</label> -->
-        <!-- ID always matches the FOR -->
-        <!-- <input id="fname" type="text" name="firstname" required > -->
-        <!-- <label for="lname">Last Name*:</label> -->
-        <!-- <input id="lname" type="text" name="lastname" required > -->
-        <!-- <label for="title">Business Position Title *: </label> -->
-        <!-- <input id="title" required name="biztitle"> -->
-    <!-- </form> -->
+    <form method="get" action="thankyou.html">
+      <label for="fname">First Name*:</label>
+      <!-- ID always matches the FOR -->
+      <input id="fname" type="text" name="firstname" required />
+      <label for="lname">Last Name*:</label>
+      <input id="lname" type="text" name="lastname" required />
+      <label for="title"
+        >Business Position Title * (Only letter, spaces, and numbers):
+      </label>
+      <input
+        required
+        id="title"
+        name="biztitle"
+        pattern="[- A-Za-z]+"
+        minlength="7"
+      />
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="email" />
+      <label for="phone">Phone number:</label>
+      <input required id="phone" type="tel" name="cell" />
 
+      <label id="member">Enter Your Membership</label>
+      <div id="radio">
+        <input type="radio" id="one" name="mlevel" value="np" />
+        <label for="one">Non Profit</label>
 
+        <input type="radio" id="two" name="mlevel" value="bronze" />
+        <label for="one">Bronze</label>
 
+        <input type="radio" id="three" name="mlevel" value="silver" />
+        <label for="one">Silver</label>
 
+        <input type="radio" id="four" name="mlevel" value="gold" />
+        <label for="one">Gold</label>
+      </div>
 
-    <table>
-        <thead>
-            
-            <!-- table row -->
-            <tr>
-                <!-- table header always -->
-                <th colspan="2">WDD230 Assignments</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th rowspan="2" >Week 9</th>
-                <td>Tables</td>
-            </tr>
+      <label for="message">Business Description</label>
+      <textarea id="message" placeholder="description"></textarea>
 
-            <tr>
-                <td>Forms</td>
-            </tr>
-            <tr>
-                <td>Week 10</td>
-                <td>API</td>
-            </tr>
-            <tr>
-                <td>Week 11</td>
-                <td>Weather App</td>
-            </tr>
-            <!-- table data -->
-            <td></td>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td  colspan="2">A look at the next few weeks</td>
-            </tr>
-        </tfoot>
-    </table>
-</body>
+      <input id="date" type="hidden" name="todaydate" />
+
+      <input type="submit" value="JOIN" />
+    </form>
+
+    <!-- <table> -->
+    <!-- <thead> -->
+    <!--  -->
+    <!-- table row -->
+    <!-- <tr> -->
+    <!-- table header always -->
+    <!-- <th colspan="2">WDD230 Assignments</th> -->
+    <!-- </tr> -->
+    <!-- </thead> -->
+    <!-- <tbody> -->
+    <!-- <tr> -->
+    <!-- <th rowspan="2" >Week 9</th> -->
+    <!-- <td>Tables</td> -->
+    <!-- </tr> -->
+
+    <!-- <tr> -->
+    <!-- <td>Forms</td> -->
+    <!-- </tr> -->
+    <!-- <tr> -->
+    <!-- <td>Week 10</td> -->
+    <!-- <td>API</td> -->
+    <!-- </tr> -->
+    <!-- <tr> -->
+    <!-- <td>Week 11</td> -->
+    <!-- <td>Weather App</td> -->
+    <!-- </tr> -->
+    <!-- table data -->
+    <!-- <td></td> -->
+    <!-- </tbody> -->
+    <!-- <tfoot> -->
+    <!-- <tr> -->
+    <!-- <td  colspan="2">A look at the next few weeks</td> -->
+    <!-- </tr> -->
+    <!-- </tfoot> -->
+    <!-- </table> -->
+  </body>
 </html>

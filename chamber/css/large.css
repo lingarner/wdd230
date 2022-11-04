@@ -104,4 +104,9 @@
     cursor: pointer;
     opacity: 0.6;
   }
+   /* Thank you Page */
+   #submitPage{
+    grid-column: 1/5;
+    grid-row: 2;
+  }
 }

@@ -1,4 +1,4 @@
-tr:nth-child(odd){
+/* tr:nth-child(odd){
     background-color: #ccc;
 }
 
@@ -14,6 +14,45 @@ td, th{
 table, td, th{
     border: solid 1px black;
     /* border-collapse: collapse; */
+/* }
+
+tbody tr:nth-child(3)} */
+
+form{
+    margin: 40px;
 }
 
-tbody tr:nth-child(3)}
+form input:required{
+    border-left: red solid 6px
+}
+
+form input:required:valid{
+    border-left: green solid 6px
+}
+
+label, input{
+    display: block;
+    margin: 7px;
+    /* font-size: 2em; */
+}
+
+textarea{
+    height: 150px;
+}
+
+#radio label, #radio input{
+    display: inline;
+}
+
+#radio{
+    border: 9px;
+}
+
+
+
+
+
+
+
+
+

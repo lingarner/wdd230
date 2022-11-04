@@ -177,4 +177,35 @@ black:
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 20px;
   }
+
+
+  /* Join Page */
+
+  #joinMain{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #memberTitle{
+    text-align: left;
+  }
+
+  #button:hover{
+    background-color: white;
+    color: #066489;
+    cursor: pointer;
+    opacity: 0.6;
+    border: solid 3px #ff5858
+  }
+
+ #radio div{
+  text-align: left;
+ }
+
+ /* Thank you Page */
+  #submitPage{
+  text-align: center;
+  grid-column: 1/3;
+}
+
 }

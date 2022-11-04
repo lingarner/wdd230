@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The home page for a Gilbert Arizona's Chamber of Commerce"
+    />
+    <title>Chamber of Commerce for The Town of Gilbert</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <!-- <link rel="stylesheet" href="../css/normalize.css" /> -->
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/medium.css" />
+    <link rel="stylesheet" href="./css/large.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+
+    <script defer src="./js/chamber.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <a href="./index.html"><img src="./images/logo.webp" alt="logo" id="logoImg"></a>
+        <div class="nameTitle">
+          <h1 id="town">Gilbert</h1>
+          <h2>Chamber of Commerce</h2>
+        </div>
+
+        <i id="facebook" class="fa-brands fa-facebook"></i>
+
+        <button class="btn">&#9776;</button>
+
+        <i id="linkedIn" class="fa-brands fa-linkedin"></i>
+
+        <nav>
+          <ul class="links disappear">
+            <li><a href="./discover.html">Discover</a></li>
+            <li><a href="#">Director</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="currentDate"></div>
+
+        <p id="joinUsBanner"></p>
+      </header>
+      <main id="joinMain">
+        <form method="get" action="thankyou.html">
+          <h1 id="memberTitle">Membership Form</h1>
+      
+          <label for="fname">First Name*:</label>
+          <input id="fname" placeholder="First Name" type="text" name="firstname" required />
+          
+          <label for="lname">Last Name*:</label>
+          <input id="lname" placeholder="Last Name" type="text" name="lastname" required />
+
+          <label for="title">Business Position Title * (Only letter, spaces, and numbers):</label>
+          <input required id="title" placeholder="Title"  name="biztitle" pattern="[- A-Za-z]+" minlength="7"/>
+
+          <label for="email">Email:</label>
+          <input id="email" placeholder="Email"  type="email" name="email" />
+
+          <label for="phone">Phone number:</label>
+          <input required id="phone" placeholder="Phone Number"  type="tel" name="cell" />
+    
+          <label id="member">Enter Your Membership</label>
+          <div id="radio">
+            <div>
+              <input type="radio" id="one" name="mlevel" value="np" />
+              <label for="one">Non Profit</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="two" name="mlevel" value="bronze" />
+              <label for="one">Bronze</label>
+            </div>
+
+            <div>
+              <input type="radio" id="three" name="mlevel" value="silver" />
+              <label for="one">Silver</label>
+            </div>
+
+            <div>
+              <input type="radio" id="four" name="mlevel" value="gold" />
+              <label for="one">Gold</label>
+            </div>
+            
+          </div>
+    
+          <label for="message">Business Description</label>
+          <textarea id="message" placeholder="Description"></textarea>
+    
+          <input id="date" type="hidden" name="todaydate" />
+    
+          <input id="button" type="submit" value="Join Us!" />
+        </form>
+
+        <div id="benefitsContainer">
+          <h2 id="benefits">Membership Benefits</h2>
+
+          <h3>Non Profit</h3>
+            <ul>
+              <li>For non profit organizations and there is no fee</li>
+            </ul>
+
+          <h3>Bronze</h3>
+            <ul>
+              <li>15% discount on events</li>
+              <li>10% discount on advertising</li>
+              <li>Fee of $50/month</li>
+            </ul>
+
+            <h3>Silver</h3>
+              <ul>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+              </ul>
+
+            <h3>Gold</h3>
+              <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quarter</li>
+                <li>Fee of $250/month</li>
+              </ul>
+        </div>
+      </main>
+
+      <footer>
+        <div class="gridFoot">
+          <img src="../lesson3/images/logo.png" alt="logo" id="footImg" />
+          <div id="locationInfo">
+            <h2>Gilbert Chamber of Commerce</h2>
+            <p id="address">119 N Gilbert Rd #101, Gilbert, AZ 85234</p>
+          </div>
+
+          <div id="contact">
+            <i id="pin" class="fa-solid fa-location-dot"></i
+            ><a
+              target="_blank"
+              id="linkLocation"
+              href="https://www.google.com/maps/place/119+N+Gilbert+Rd+%23101,+Gilbert,+AZ+85234/@33.3519164,-111.7915594,17z/data=!3m1!4b1!4m5!3m4!1s0x872ba914247d5943:0xa1d44f284f934b36!8m2!3d33.3519164!4d-111.7893707"
+              >Location Map</a
+            >
+            <p>info@gilbertcc.org</p>
+            <p>+1 (480) 827 6452</p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="bottomTag">
+          <p>
+            &copy;<span class="yearFoot"></span> Gilbert Chamber | Lindsay
+            Garner | WDD230
+          </p>
+          <p id="adjustFoot">
+            Last Updated: <span class="lastModified"></span>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
