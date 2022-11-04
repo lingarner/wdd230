@@ -302,6 +302,10 @@ textarea{
   display: inline;
 }
 
+input[type='radio'] { 
+  transform: scale(1.8); 
+}
+
 #memberTitle{
   font-size: 30px;
   color: #066489;
@@ -316,7 +320,7 @@ textarea{
 }
 
 #button{
-  background-color: #ff8484;
+  background-color: #066489;
   color: white;
   border: none;
   padding: 12px;
