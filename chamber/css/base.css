@@ -46,6 +46,13 @@ h2 {
   height: auto;
 }
 
+#weatherIcon{
+  border: none;
+  background-color: #ffdbc2;
+  color: white;
+  font-size: 4em;
+}
+
 section {
   margin: 10px;
 }
