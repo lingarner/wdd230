@@ -15,7 +15,7 @@ async function getProphets(requestURL) {
     }
 };
 
-getProphets(requestURL)
+// getProphets(requestURL)
 
 function displayProphets(item) {
     let card = document.createElement('section');

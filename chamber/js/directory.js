@@ -2,39 +2,47 @@
 
 const requestURL = "https://github.com/lingarner/wdd230/blob/master/chamber/data.json";
 
-async function getProphets(requestURL) {
+async function getBusiness(requestURL) {
     // can only use the await keyword with async
     const response = await fetch(requestURL);
     console.log(response);
     if (response.ok) {
         const jsObject = await response.json();
         console.log(jsObject);
-        const prophets = jsObject['prophets'];
-        console.log(prophets[0].lastname);
-        prophets.forEach(displayProphets);
+        const business = jsObject['business'];
+        console.log(business[0].name);
+        business.forEach(displayBusiness);
     }
 };
 
-getProphets(requestURL)
+// getProphets(requestURL)
 
-function displayProphets(item) {
+function displayBusiness(item) {
     let card = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let dob = document.createElement('p');
-    let pob = document.createElement('p');
+    let name = document.createElement('h2');
+    let address = document.createElement('p');
+    let phone = document.createElement('p');
+    let website = document.createElement('p');
     let img = document.createElement('img');
 
     
-    h2.textContent = `${item.name} ${item.lastname}`;
-    dob.textContent = item.birthdate;
-    pob.textContent = item.birthplace;
+    name.textContent = item.name;
+    address.textContent = item.address;
+    phone.textContent = item.phone;
+    website.textContent = item.website;
     // 
-    card.appendChild(h2);
-    card.appendChild(dob);
-    card.appendChild(pob);
+    card.appendChild(name);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(website);
     card.appendChild(img);
     
-    img.setAttribute('src', item.imageurl);
-    img.setAttribute('alt', `${item.name} ${item.lastname}`)
+    // img.setAttribute('src', item.imageurl);
+    // img.setAttribute('alt', `${item.name} ${item.lastname}`)
     document.querySelector('.cards').appendChild(card);
 }
+
+
+
+
+// card.style.display = "none";
