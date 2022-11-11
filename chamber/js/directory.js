@@ -31,6 +31,7 @@ function displayBusiness(item) {
     address.textContent = item.address;
     phone.textContent = item.phone;
     website.textContent = item.website;
+    img.textContent = item.image;
     // 
     card.appendChild(name);
     card.appendChild(address);
