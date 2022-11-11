@@ -1,74 +1,89 @@
-[
+{
+    "business": [
     {
         "name": "Modern Law",
         "address": "1744 S. Val Vista Dr., Ste 205, Mesa, AZ 85204",
         "phone":"(480) 649-2905",
-        "website": "https://mymodernlaw.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=GMBMesa"
+        "website": "https://mymodernlaw.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=GMBMesa",
+        "image": ""
     },
     {
         "name": "Awakening Wellness",
         "address": "2451 E. Baseline Rd., Ste. 240, Gilbert, AZ 85234",
         "phone":"(480) 793-1366",
-        "website": "https://awakeningwellnesscenter.business.site/?utm_source=gmb&utm_medium=referral"
+        "website": "https://awakeningwellnesscenter.business.site/?utm_source=gmb&utm_medium=referral",
+        "image": ""
     },  
     {
         "name": "Local Data Experts",
         "address": "583 S. Gilbert Rd., Ste. 107, Gilbert, AZ 85296",
         "phone":"(480) 558-1070",
-        "website": "https://citylifestyle.com/gilbert"
+        "website": "https://citylifestyle.com/gilbert",
+        "image": ""
     },  
     {
         "name": "Powerhouse Chiropractic",
         "address": "2100 S. Gilbert Rd., Ste 22, Chandler, AZ 85286",
         "phone":"(480) 712-1029",
-        "website": "https://www.thepowerhousevancouver.com/"
+        "website": "https://www.thepowerhousevancouver.com/",
+        "image": ""
     },  
     {
         "name": "Froyoholic Store 2",
         "address": "884 W. Warner Rd., Ste. B9, Gilbert, AZ 85233",
         "phone":"(623) 239-7690",
-        "website": "https://www.facebook.com/Froyoholic1/"
+        "website": "https://www.facebook.com/Froyoholic1/",
+        "image": ""
     },  
     {
         "name": "Thrive Mortgage",
         "address": "1090 S. Gilbert Rd., Ste. 205, Gilbert, AZ 85296",
         "phone":"(480) 300-2203",
-        "website": null
+        "website": null,
+        "image": ""
     },  
     {
         "name": "Tha Mahoney Group",
         "address": "1835 S. Extension Rd., Mesa, AZ 85210",
         "phone":"(480) 253-5914",
-        "website": "https://www.mahoneygroup.com/"
+        "website": "https://www.mahoneygroup.com/",
+        "image": ""
     },  
     {
         "name": "Palm Tax ToGo",
         "address": "100 S. Kyrene, Ste. 5, Chandler, AZ 85226",
         "phone":"(480) 545-6232",
-        "website": null
+        "website": null,
+        "image": ""
     },  
     {
         "name": "Foundation Insurance Services",
         "address": "2730 S. Val Vista Dr., Ste. 132, Gilbert, AZ 85295",
         "phone":"(480) 999-2088",
-        "website": "https://found-ins.com/contact-us"
+        "website": "https://found-ins.com/contact-us",
+        "image": ""
     },  
     {
         "name": "Phoenix-Mesa Gatewat Airport",
         "address": "5835 S. Sossaman Rd., Mesa, AZ 85212",
         "phone":"(480) 988-7600",
-        "website": "https://www.gatewayairport.com/"
+        "website": "https://www.gatewayairport.com/",
+        "image": ""
     },  
     {
         "name": "Elaine Kessler Photography",
         "address": "3651 E. Baseline Rd., Ste. E223, Gilbert, AZ 85234",
         "phone":"(480) 220-6426",
-        "website": "https://www.elainekesslerphotography.com/"
+        "website": "https://www.elainekesslerphotography.com/",
+        "image": ""
     },  
     {
         "name": "Henry Brown Automotive Group",
         "address": "1550 E. Drivers Way, Gilbert, AZ 85297",
         "phone":"(480) 861-1400",
-        "website": "https://www.henrybrowngmc.com/"
+        "website": "https://www.henrybrowngmc.com/",
+        "image": ""
     }   
 ]
+
+}
