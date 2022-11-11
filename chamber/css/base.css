@@ -353,3 +353,20 @@ input[type='radio'] {
 
 }
 
+
+/* Directory */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.cards section {
+  border: 1px solid navy;
+  background-color: aquamarine;
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+}

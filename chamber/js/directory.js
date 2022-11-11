@@ -1,6 +1,7 @@
 // ASYNC AWAIT Fetch
 
-const requestURL = "https://github.com/lingarner/wdd230/blob/master/chamber/data.json";
+const requestURL = "https://lingarner.github.io/wdd230/chamber/data.json";
+
 
 async function getBusiness(requestURL) {
     // can only use the await keyword with async
@@ -15,7 +16,7 @@ async function getBusiness(requestURL) {
     }
 };
 
-// getProphets(requestURL)
+getBusiness(requestURL)
 
 function displayBusiness(item) {
     let card = document.createElement('section');
