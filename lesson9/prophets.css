@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -7,15 +9,16 @@
 
 .cards section {
     border: 1px solid navy;
-    background-color: lightblue;
+    background-color: aquamarine;
     padding: 30px;
     text-align: center;
     width: 300px;
     margin: 20px;
 }
 h2, h1 {
-    color: navy;
+    color: black;
     text-align: center;
+    font-family: 'Secular One', sans-serif;
 }
 img {
     width: 90%;
