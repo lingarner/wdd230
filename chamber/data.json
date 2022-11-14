@@ -2,87 +2,87 @@
     "business": [
     {
         "name": "Modern Law",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/modernLaw.jpg",
         "address": "1744 S. Val Vista Dr., Ste 205, Mesa, AZ 85204",
         "phone":"(480) 649-2905",
-        "website": "https://mymodernlaw.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1280px-Amazon_logo.svg.png"
+        "website": "https://mymodernlaw.com/"
     },
     {
         "name": "Awakening Wellness",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/wellness.jpg",
         "address": "2451 E. Baseline Rd., Ste. 240, Gilbert, AZ 85234",
         "phone":"(480) 793-1366",
-        "website": "https://awakeningwellnesscenter.business.site/",
-        "image": ""
+        "website": "https://awakeningwellnesscenter.business.site/"
     },  
     {
         "name": "Local Data Experts",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/dataExperts.jpg",
         "address": "583 S. Gilbert Rd., Ste. 107, Gilbert, AZ 85296",
         "phone":"(480) 558-1070",
-        "website": "https://citylifestyle.com/gilbert",
-        "image": ""
+        "website": "https://citylifestyle.com/gilbert"
     },  
     {
         "name": "Powerhouse Chiropractic",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/chiro.png",
         "address": "2100 S. Gilbert Rd., Ste 22, Chandler, AZ 85286",
         "phone":"(480) 712-1029",
-        "website": "https://www.thepowerhousevancouver.com/",
-        "image": ""
+        "website": "https://www.thepowerhousevancouver.com/"
     },  
     {
         "name": "Froyoholic Store 2",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/froyo.png",
         "address": "884 W. Warner Rd., Ste. B9, Gilbert, AZ 85233",
         "phone":"(623) 239-7690",
-        "website": "https://www.facebook.com/Froyoholic1/",
-        "image": ""
+        "website": "https://www.facebook.com/Froyoholic1/"
     },  
     {
         "name": "Thrive Mortgage",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/thrive.png",
         "address": "1090 S. Gilbert Rd., Ste. 205, Gilbert, AZ 85296",
         "phone":"(480) 300-2203",
-        "website": null,
-        "image": ""
+        "website": null
     },  
     {
         "name": "Tha Mahoney Group",
+        "image": "",
         "address": "1835 S. Extension Rd., Mesa, AZ 85210",
         "phone":"(480) 253-5914",
-        "website": "https://www.mahoneygroup.com/",
-        "image": ""
+        "website": "https://www.mahoneygroup.com/"
     },  
     {
         "name": "Palm Tax ToGo",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/tax.png",
         "address": "100 S. Kyrene, Ste. 5, Chandler, AZ 85226",
         "phone":"(480) 545-6232",
-        "website": null,
-        "image": ""
+        "website": null
     },  
     {
         "name": "Foundation Insurance Services",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/foundation.png",
         "address": "2730 S. Val Vista Dr., Ste. 132, Gilbert, AZ 85295",
         "phone":"(480) 999-2088",
-        "website": "https://found-ins.com/contact-us",
-        "image": ""
+        "website": "https://found-ins.com/contact-us"
     },  
     {
         "name": "Phoenix-Mesa Gatewat Airport",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/airport.png",
         "address": "5835 S. Sossaman Rd., Mesa, AZ 85212",
         "phone":"(480) 988-7600",
-        "website": "https://www.gatewayairport.com/",
-        "image": ""
+        "website": "https://www.gatewayairport.com/"
     },  
     {
         "name": "Elaine Kessler Photography",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/photography.png",
         "address": "3651 E. Baseline Rd., Ste. E223, Gilbert, AZ 85234",
         "phone":"(480) 220-6426",
-        "website": "https://www.elainekesslerphotography.com/",
-        "image": ""
+        "website": "https://www.elainekesslerphotography.com/"
     },  
     {
         "name": "Henry Brown Automotive Group",
+        "image": "https://lingarner.github.io/wdd230/chamber/images/directoryImg/cars.jpg",
         "address": "1550 E. Drivers Way, Gilbert, AZ 85297",
         "phone":"(480) 861-1400",
-        "website": "https://www.henrybrowngmc.com/",
-        "image": ""
+        "website": "https://www.henrybrowngmc.com/"
     }   
 ]
 

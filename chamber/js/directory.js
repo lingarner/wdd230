@@ -21,23 +21,23 @@ getBusiness(requestURL)
 function displayBusiness(item) {
     let card = document.createElement('section');
     let name = document.createElement('h2');
+    let img = document.createElement('img');
     let address = document.createElement('p');
     let phone = document.createElement('p');
     let website = document.createElement('p');
-    let img = document.createElement('img');
 
     
     name.textContent = item.name;
+    // img.innerHTML = item.image;
     address.textContent = item.address;
     phone.textContent = item.phone;
     website.textContent = item.website;
-    img.textContent = item.image;
     // 
     card.appendChild(name);
+    card.appendChild(img);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
-    card.appendChild(img);
     
     // img.setAttribute('src', item.imageurl);
     // img.setAttribute('alt', `${item.name} ${item.lastname}`)
