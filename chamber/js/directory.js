@@ -29,7 +29,8 @@ function displayBusiness(item) {
     
     name.textContent = item.name;
     imgs = item.image;
-    img.setAttribute("src", imgs )
+    img.setAttribute("src", imgs)
+    img.setAttribute("alt", "logo")
     address.textContent = item.address;
     phone.textContent = item.phone;
     website.textContent = item.website;
