@@ -1,23 +1,28 @@
 // ASYNC AWAIT Fetch
 
 const requestURL = "https://lingarner.github.io/wdd230/chamber/data.json";
-
+let jsObject = '';
 
 async function getBusiness(requestURL) {
     // can only use the await keyword with async
     const response = await fetch(requestURL);
-    console.log(response);
+
     if (response.ok) {
-        const jsObject = await response.json();
+        jsObject = await response.json();
         console.log(jsObject);
         const business = jsObject['business'];
         console.log(business[0].name);
         business.forEach(displayBusiness);
-        i.addEventListener("Onclick", MakeTable);
     }
+    // const i = document.getElementsByClassName("clickForTable")
+    // i.addEventListener("Onclick", MakeTable);
+    
+    
 };
 
 getBusiness(requestURL)
+
+
 
 function displayBusiness(item) {
     let card = document.createElement('section');
@@ -44,32 +49,55 @@ function displayBusiness(item) {
     document.querySelector('.cards').appendChild(card);
 }
 
-
-
-
-function MakeTable(item) {
-    // card.style.display = "none";
-    let card = document.createElement('tr');
+CallAwesomeFunction = () => {
+    // loop through array
+    const business = jsObject['business'];
+    business.forEach(MakeTable);
+    // create row for each item in array
+   
+    // create td for each item in object
+    let table = document.createElement('tr');
     let name = document.createElement('td');
-    let img = document.createElement('td');
     let address = document.createElement('td');
     let phone = document.createElement('td');
     let website = document.createElement('td');
-
-    
+    3
     name.textContent = item.name;
-    imgs = item.image;
-    img.setAttribute("src", imgs)
-    img.setAttribute("alt", "logo")
     address.textContent = item.address;
     phone.textContent = item.phone;
     website.textContent = item.website;
-    // 
-    card.appendChild(name);
-    card.appendChild(img);
-    card.appendChild(address);
-    card.appendChild(phone);
-    card.appendChild(website);
+    
+    table.appendChild(name);
+    table.appendChild(img);
+    table.appendChild(address);
+    table.appendChild(phone);
+    table.appendChild(website);
     document.querySelector('.cards').appendChild(card);
-
+    
+    
+    document.getElementById('myTable') = table;
 }
+
+
+function MakeTable(item) {
+    // alert("I am an alert box!");
+  
+    let table = document.createElement('tr');
+    let name = document.createElement('td');
+    let address = document.createElement('td');
+    let phone = document.createElement('td');
+    let website = document.createElement('td');
+    
+    name.textContent = item.name;
+    address.textContent = item.address;
+    phone.textContent = item.phone;
+    website.textContent = item.website;
+    
+    table.appendChild(name);
+    table.appendChild(address);
+    table.appendChild(phone);
+    table.appendChild(website);
+    document.querySelector('#myTable').appendChild(table);
+    
+}
+
