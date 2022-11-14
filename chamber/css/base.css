@@ -396,6 +396,10 @@ main img{
   height: 200px;
 }
 
+td{
+  height: 20px;
+
+}
 
 table, td{
   border: 3px solid black;
@@ -404,10 +408,17 @@ table, td{
 
 table{
   /* margin:0 auto; */
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Open Sans", sans-serif;
   /* margin: 20px; */
   background-color: #ff8484;
+ 
+}
+
+#tableContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 tr:nth-child(2n -1){

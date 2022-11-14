@@ -14,9 +14,11 @@ async function getBusiness(requestURL) {
         // console.log(business[0].name);
         business.forEach(displayBusiness);
         business.forEach(MakeTable)
+        hiddenTable();
     }  
     
 };
+
 
 getBusiness(requestURL);
 
