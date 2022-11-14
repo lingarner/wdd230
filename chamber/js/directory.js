@@ -6,21 +6,20 @@ let jsObject = '';
 async function getBusiness(requestURL) {
     // can only use the await keyword with async
     const response = await fetch(requestURL);
-
+    
     if (response.ok) {
         jsObject = await response.json();
         console.log(jsObject);
         const business = jsObject['business'];
-        console.log(business[0].name);
+        // console.log(business[0].name);
         business.forEach(displayBusiness);
-    }
-    // const i = document.getElementsByClassName("clickForTable")
-    // i.addEventListener("Onclick", MakeTable);
-    
+        business.forEach(MakeTable)
+    }  
     
 };
 
 getBusiness(requestURL)
+
 
 
 
@@ -49,39 +48,11 @@ function displayBusiness(item) {
     document.querySelector('.cards').appendChild(card);
 }
 
-CallAwesomeFunction = () => {
-    // loop through array
-    const business = jsObject['business'];
-    business.forEach(MakeTable);
-    // create row for each item in array
-   
-    // create td for each item in object
-    let table = document.createElement('tr');
-    let name = document.createElement('td');
-    let address = document.createElement('td');
-    let phone = document.createElement('td');
-    let website = document.createElement('td');
-    3
-    name.textContent = item.name;
-    address.textContent = item.address;
-    phone.textContent = item.phone;
-    website.textContent = item.website;
-    
-    table.appendChild(name);
-    table.appendChild(img);
-    table.appendChild(address);
-    table.appendChild(phone);
-    table.appendChild(website);
-    document.querySelector('.cards').appendChild(card);
-    
-    
-    document.getElementById('myTable') = table;
-}
 
 
-function MakeTable(item) {
-    // alert("I am an alert box!");
-  
+
+function MakeTable(item){
+    
     let table = document.createElement('tr');
     let name = document.createElement('td');
     let address = document.createElement('td');
@@ -100,4 +71,19 @@ function MakeTable(item) {
     document.querySelector('#myTable').appendChild(table);
     
 }
+
+
+hiddenCards = () => {
+    
+    // alert("I am an alert box!");
+    document.querySelector(".cards").style.display = "none";
+    document.querySelector("table").style.display = "block";
+}
+
+hiddenTable = () => {
+    document.querySelector("table").style.display = "none";
+    document.querySelector(".cards").style.display = "flex";
+
+}
+
 
