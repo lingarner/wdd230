@@ -13,6 +13,7 @@ async function getBusiness(requestURL) {
         const business = jsObject['business'];
         console.log(business[0].name);
         business.forEach(displayBusiness);
+        i.addEventListener("Onclick", MakeTable);
     }
 };
 
@@ -40,13 +41,35 @@ function displayBusiness(item) {
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
-    
-    // img.setAttribute('src', item.imageurl);
-    // img.setAttribute('alt', `${item.name} ${item.lastname}`)
     document.querySelector('.cards').appendChild(card);
 }
 
 
 
 
-// card.style.display = "none";
+function MakeTable(item) {
+    // card.style.display = "none";
+    let card = document.createElement('tr');
+    let name = document.createElement('td');
+    let img = document.createElement('td');
+    let address = document.createElement('td');
+    let phone = document.createElement('td');
+    let website = document.createElement('td');
+
+    
+    name.textContent = item.name;
+    imgs = item.image;
+    img.setAttribute("src", imgs)
+    img.setAttribute("alt", "logo")
+    address.textContent = item.address;
+    phone.textContent = item.phone;
+    website.textContent = item.website;
+    // 
+    card.appendChild(name);
+    card.appendChild(img);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(website);
+    document.querySelector('.cards').appendChild(card);
+
+}
