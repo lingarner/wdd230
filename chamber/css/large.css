@@ -112,7 +112,7 @@
 
 
   /* Directory Page */
-  main{
+  #businessMain{
     display:block;
     grid-column: 1/3;
   }
