@@ -28,7 +28,7 @@ function displayBusiness(item) {
 
     
     name.textContent = item.name;
-    // img.innerHTML = item.image;
+    img.textContent = item.image;
     address.textContent = item.address;
     phone.textContent = item.phone;
     website.textContent = item.website;
