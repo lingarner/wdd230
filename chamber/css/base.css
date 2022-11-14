@@ -363,10 +363,21 @@ input[type='radio'] {
 }
 
 .cards section {
-  border: 1px solid navy;
-  background-color: aquamarine;
+  border: 2px solid black;
+  color:white;
+  box-shadow: 3px 3px 7px black;
+  background-color: #066489;
   padding: 30px;
   text-align: center;
   width: 300px;
   margin: 20px;
+  grid-column: 2;
+}
+
+main i {
+  border: 2px solid #ff8484;
+}
+
+main h2{
+  font-size: 20px;
 }
