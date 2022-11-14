@@ -376,8 +376,16 @@ input[type='radio'] {
 
 main i {
   border: 2px solid #ff8484;
+  font-size: 40px;
+  margin: 10px;
 }
 
 main h2{
   font-size: 20px;
+
+}
+
+main img{
+  width: 250px;
+  height: 200px;
 }

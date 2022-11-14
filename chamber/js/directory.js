@@ -29,7 +29,7 @@ function displayBusiness(item) {
     
     name.textContent = item.name;
     imgs = item.image;
-    img.setAttribute("href", imgs )
+    img.setAttribute("src", imgs )
     address.textContent = item.address;
     phone.textContent = item.phone;
     website.textContent = item.website;
