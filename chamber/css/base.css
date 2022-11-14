@@ -355,6 +355,12 @@ input[type='radio'] {
 
 
 /* Directory */
+
+#businessTitle{
+  color:#066489;
+  font-size: 30px;
+  text-decoration: underline;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -392,15 +398,19 @@ main img{
 
 
 table, td{
-  border: 1px solid black;
-  padding: 10px;
+  border: 3px solid black;
+  padding: 15px;
 }
 
 table{
-  margin: 0 auto;
+  /* margin:0 auto; */
   font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px;
+  background-color: #ff8484;
 }
 
-tr{
- margin: 7px;
+tr:nth-child(2n -1){
+  background-color: #ffdbc2;
 }
+

@@ -18,8 +18,7 @@ async function getBusiness(requestURL) {
     
 };
 
-getBusiness(requestURL)
-
+getBusiness(requestURL);
 
 
 
@@ -78,12 +77,13 @@ hiddenCards = () => {
     // alert("I am an alert box!");
     document.querySelector(".cards").style.display = "none";
     document.querySelector("table").style.display = "block";
-}
+};
 
 hiddenTable = () => {
     document.querySelector("table").style.display = "none";
     document.querySelector(".cards").style.display = "flex";
 
-}
+};
+
 
 
