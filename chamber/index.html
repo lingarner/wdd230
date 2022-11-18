@@ -47,7 +47,6 @@
             <li><a href="./discover.html">Discover</a></li>
             <li><a href="./directory.html">Director</a></li>
             <li><a href="./join.html">Join</a></li>
-            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
 
@@ -56,10 +55,10 @@
         <p id="joinUsBanner"></p>
       </header>
 
-      <main>
+      <main id="mainHome">
         <div id="hero">
           <picture>
-            <source
+            <!-- <source
               media="(max-width:400px)"
               srcset="./images/water400-2.jpg"
             />
@@ -70,7 +69,7 @@
             <source
               media="(max-width:2000px)"
               srcset="./images/water1000-2.jpg"
-            />
+            /> -->
             <img src="./images/water.jpg" alt="tower" id="tower" />
           </picture>
 
@@ -87,9 +86,10 @@
 
         <div id="weather">
           <h2>Weather</h2>
-          <i class="fa-solid fa-cloud-sun" id="weatherIcon"></i>
-          <p><span id="temp">20</span> <span>&#176;F</span></p>
-          <p>Partly Cloudy</p>
+          <figure><img src="" alt="" id="weatherIcon" />  <figcaption></figcaption></figure>
+          <!-- <i class="fa-solid fa-cloud-sun" id="weatherIcon"></i> -->
+          <p><span id="temp"></span> <span>&#176;F</span></p>
+          <span id="icon-src"></span>
           <hr />
 
           <p>Wind Speed:</p>

@@ -51,6 +51,8 @@ h2 {
   background-color: #ffdbc2;
   color: white;
   font-size: 4em;
+  height: auto;
+  width:auto;
 }
 
 section {
@@ -156,6 +158,8 @@ main {
   grid-column: 2;
 }
 
+
+
 main div {
   /* padding: 90px; */
   border: #066489 10px solid;
@@ -228,7 +232,7 @@ main div p {
 
 #eventImg {
   width: 30%;
-  height: 30%;
+  height: 30%; 
 }
 
 /* Discover Page */
