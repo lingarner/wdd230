@@ -79,6 +79,7 @@ body {
   background-color: #ffdbc2;
   display: grid;
   grid-template-columns: 1fr 90% 1fr;
+  margin: 8px;
 }
 
 #container {
