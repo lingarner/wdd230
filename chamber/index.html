@@ -26,6 +26,7 @@
 
     <script defer src="./js/chamber.js"></script>
     <script defer src="./js/windchill.js"></script>
+    <script defer src="./js/weather-api.js"></script>
   </head>
   <body>
     <div id="container">
@@ -58,26 +59,14 @@
       <main id="mainHome">
         <div id="hero">
           <picture>
-            <!-- <source
-              media="(max-width:400px)"
-              srcset="./images/water400-2.jpg"
-            />
-            <source
-              media="(max-width:750px)"
-              srcset="./images/water800-2.jpg"
-            />
-            <source
-              media="(max-width:2000px)"
-              srcset="./images/water1000-2.jpg"
-            /> -->
-            <img src="./images/water.jpg" alt="tower" id="tower" />
+          <img src="./images/homepage/water.jpg" alt="tower" id="tower" />
           </picture>
 
-          <button id="joinBtn">Join the Chamber</button>
+          <button type="button" Onclick="window.location.href='./join.html'" id="joinBtn">Join the Chamber</button>
         </div>
 
         <div id="join">
-          <button id="joinUsBtn">Join Us!</button>
+          <button type="button" Onclick="window.location.href='./join.html'" id="joinUsBtn">Join Us!</button>
           <p>
             Discover how to join the chamber of commerce and how it will benefit
             your organization!
@@ -87,20 +76,20 @@
         <div id="weather">
           <h2>Weather</h2>
           <figure><img src="" alt="" id="weatherIcon" />  <figcaption></figcaption></figure>
-          <!-- <i class="fa-solid fa-cloud-sun" id="weatherIcon"></i> -->
           <p><span id="temp"></span> <span>&#176;F</span></p>
           <span id="icon-src"></span>
           <hr />
 
           <p>Wind Speed:</p>
-          <p><span id="speed">15</span> mph</p>
+          <p><span id="speed"></span> mph</p>
           <p>Wind Chill:</p>
-          <span id="chill">N/A</span>
+          <span id="chill">Not enough wind</span>
         </div>
 
         <div id="event">
           <h2>Business Workshop: Fraud and Awareness Prevention</h2>
-          <i class="fa-solid fa-shield-halved" ></i>
+          <img class="workshop" href="./images/discover/blur_discovery.jpg" alt="workshop">
+
         </div>
 
         <div id="news">
