@@ -50,9 +50,8 @@ h2 {
   border: none;
   background-color: #ffdbc2;
   color: white;
-  font-size: 4em;
-  height: auto;
-  width:auto;
+  height: 100px;
+  width: 100px;
 }
 
 section {
@@ -81,6 +80,7 @@ body {
   grid-template-columns: 1fr 90% 1fr;
   margin: 8px;
 }
+
 
 #container {
   grid-column: 2;
@@ -224,7 +224,7 @@ main div p {
 
 #tower {
   width: 100%;
-  height: auto;
+  height: 100%;
   z-index: auto;
   object-fit: cover;
   display: block;
@@ -238,8 +238,8 @@ main div p {
 
 /* Discover Page */
 .discovery picture img {
-  width: 97%;
-  height: 97%;
+  width: 87%;
+  height: 87%;
   margin-top: 15px;
   border-radius: 30px;
   border: solid 7px #066489;
@@ -401,11 +401,7 @@ main img{
   height: 200px;
 }
 
-.workshop {
-  width: auto;
-  height: auto;
-  display: block;
-}
+
 
 td{
   height: 20px;
@@ -414,14 +410,12 @@ td{
 
 table, td{
   border: 3px solid black;
-  /* padding: 15px; */
 }
 
 table{
-  /* margin:0 auto; */
+  display: block;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
-  /* margin: 20px; */
   background-color: #ff8484;
  
 }
@@ -435,4 +429,5 @@ table{
 tr:nth-child(2n -1){
   background-color: #ffdbc2;
 }
+
 

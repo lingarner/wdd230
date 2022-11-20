@@ -5,7 +5,7 @@ const getWeather = async () => {
     const jsObject = await response.json();
   console.log(jsObject);
   // °F = (K - 273.15)* 1.8000 + 32.00
-  document.querySelector('#temp').textContent = ((jsObject.main.temp - 273.15) * 1.8 + 32).toFixed(2);
+  document.querySelector('#temp').textContent = ((jsObject.main.temp - 273.15) * 1.8 + 32).toFixed(0);
 
   const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
   
