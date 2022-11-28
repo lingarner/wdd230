@@ -29,7 +29,9 @@
   <body>
     <div id="container">
       <header>
-        <a href="./index.html"><img src="./images/logo.webp" alt="logo" id="logoImg"></a>
+        <a href="./index.html"
+          ><img src="./images/logo.webp" alt="logo" id="logoImg"
+        /></a>
         <div class="nameTitle">
           <h1 id="town">Gilbert</h1>
           <h2>Chamber of Commerce</h2>
@@ -56,29 +58,57 @@
       <main id="joinMain">
         <form method="get" action="thankyou.html">
           <h1 id="memberTitle">Membership Form</h1>
-      
-          <label for="fname">First Name*:</label>
-          <input id="fname" placeholder="First Name" type="text" name="firstname" required />
-          
-          <label for="lname">Last Name*:</label>
-          <input id="lname" placeholder="Last Name" type="text" name="lastname" required />
 
-          <label for="title">Business Position Title * (Only letter, spaces, and numbers):</label>
-          <input required id="title" placeholder="Title"  name="biztitle" pattern="[- A-Za-z]+" minlength="7"/>
+          <label for="fname">First Name*:</label>
+          <input
+            id="fname"
+            placeholder="First Name"
+            type="text"
+            name="firstname"
+            required
+          />
+
+          <label for="lname">Last Name*:</label>
+          <input
+            id="lname"
+            placeholder="Last Name"
+            type="text"
+            name="lastname"
+            required
+          />
+
+          <label for="title"
+            >Business Position Title * (Only letter, spaces, and
+            numbers):</label
+          >
+          <input
+            required
+            id="title"
+            placeholder="Title"
+            name="biztitle"
+            pattern="[- A-Za-z]+"
+            minlength="7"
+          />
 
           <label for="email">Email:</label>
-          <input id="email" placeholder="Email"  type="email" name="email" />
+          <input id="email" placeholder="Email" type="email" name="email" />
 
           <label for="phone">Phone number:</label>
-          <input required id="phone" placeholder="Phone Number"  type="tel" name="cell" />
-    
+          <input
+            required
+            id="phone"
+            placeholder="Phone Number"
+            type="tel"
+            name="cell"
+          />
+
           <label id="member">Enter Your Membership</label>
           <div id="radio">
             <div>
               <input type="radio" id="one" name="mlevel" value="np" />
               <label for="one">Non Profit</label>
             </div>
-            
+
             <div>
               <input type="radio" id="two" name="mlevel" value="bronze" />
               <label for="two">Bronze</label>
@@ -93,14 +123,13 @@
               <input type="radio" id="four" name="mlevel" value="gold" />
               <label for="four">Gold</label>
             </div>
-            
           </div>
-    
+
           <label for="message">Business Description</label>
           <textarea id="message" placeholder="Description"></textarea>
-    
+
           <input id="date" type="hidden" name="todaydate" />
-    
+
           <input id="button" type="submit" value="Join Us!" />
         </form>
 
@@ -108,38 +137,37 @@
           <h2 id="benefits">Membership Benefits</h2>
 
           <h3>Non Profit</h3>
-            <ul>
-              <li>For non profit organizations and there is no fee</li>
-            </ul>
+          <ul>
+            <li>For non profit organizations and there is no fee</li>
+          </ul>
 
           <h3>Bronze</h3>
-            <ul>
-              <li>15% discount on events</li>
-              <li>10% discount on advertising</li>
-              <li>Fee of $50/month</li>
-            </ul>
+          <ul>
+            <li>15% discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+          </ul>
 
-            <h3>Silver</h3>
-              <ul>
-                <li>25% discount on events</li>
-                <li>15% discount on advertising</li>
-                <li>Free participation in the trade fair</li>
-                <li>Fee of $100/month</li>
-              </ul>
+          <h3>Silver</h3>
+          <ul>
+            <li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li>
+          </ul>
 
-            <h3>Gold</h3>
-              <ul>
-                <li>50% discount on events</li>
-                <li>50% discount on advertising</li>
-                <li>Free participation in the trade fair</li>
-                <li>5 free featured ads per year</li>
-                <li>1 free training per quarter</li>
-                <li>Fee of $250/month</li>
-              </ul>
+          <h3>Gold</h3>
+          <ul>
+            <li>50% discount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $250/month</li>
+          </ul>
         </div>
-        
-        <input id="datetype" type="hidden" name="todaydate" />
 
+        <input id="datetype" type="hidden" name="todaydate" />
       </main>
 
       <footer>
